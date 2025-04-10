@@ -1,7 +1,7 @@
 const Service = () => {
     return (<>
-        <div className="gap-4 p-4 flex justify-around mb-4">
-            <div className="...">
+        <div className="gap-4 p-4 md:flex justify-around mb-4">
+            <div className="mb-3 flex justify-center">
 
                 <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
@@ -38,7 +38,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            <div className="...">                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div className="mb-3 flex justify-center">                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img className="p-8 rounded-t-lg" src="/hero.webp" alt="product image" />
                 </a>
@@ -72,7 +72,7 @@ const Service = () => {
                     </div>
                 </div>
             </div></div>
-            <div className="...">                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <div className="mb-3 flex justify-center">                <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img className="p-8 rounded-t-lg" src="/solar__1.png" alt="product image" />
                 </a>

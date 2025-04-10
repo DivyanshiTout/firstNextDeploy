@@ -59,7 +59,7 @@ const FormModal = ({show,closeModal}) => {
                                             type="email"
                                             name="email"
                                             id="email"
-                                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                                             placeholder="name@company.com"
                                             required
                                         />
@@ -76,7 +76,7 @@ const FormModal = ({show,closeModal}) => {
                                             name="password"
                                             id="password"
                                             placeholder="••••••••"
-                                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                                             required
                                         />
                                     </div>
@@ -86,7 +86,7 @@ const FormModal = ({show,closeModal}) => {
                                                 <input
                                                     id="remember"
                                                     type="checkbox"
-                                                    className="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600"
+                                                    className="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3 focus:ring-purple-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-purple-600"
                                                 />
                                             </div>
                                             <label
@@ -98,14 +98,14 @@ const FormModal = ({show,closeModal}) => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="text-sm text-blue-700 hover:underline dark:text-blue-500"
+                                            className="text-sm text-purple-700 hover:underline dark:text-purple-500"
                                         >
                                             Lost Password?
                                         </a>
                                     </div>
                                     <button
                                         type="submit"
-                                        className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                                        className="w-full text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800"
                                     >
                                         Login to your account
                                     </button>
@@ -113,7 +113,7 @@ const FormModal = ({show,closeModal}) => {
                                         Not registered?{" "}
                                         <a
                                             href="#"
-                                            className="text-blue-700 hover:underline dark:text-blue-500"
+                                            className="text-purple-700 hover:underline dark:text-purple-500"
                                         >
                                             Create account
                                         </a>
